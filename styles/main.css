@@ -1,0 +1,116 @@
+
+main{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+.shade{
+    color: rgb(122, 122, 122);
+}
+.resumo{
+    width: 100%;
+    margin-left: 0%;
+}
+.resumo ul{
+    margin: 10px;
+    padding: 10px;
+}
+
+.paragrafos{
+    text-align: justify;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    line-height: 23px;
+}
+.faculdade{
+    width: 220px;
+    height: 120px;
+    border-radius: 5px;
+}
+.resumo .paragrafos{ 
+    margin-bottom: 0;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+
+.paragrafos h3, h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.paragrafos h2{
+    border-top: 4px solid white;
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: left;
+}
+.paragrafos h4 {
+    
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgb(193, 255, 101);
+}
+.paragrafos h4 :first-child {
+    border: 0 solid; 
+}
+.paragrafos h3{
+    font-size: 20px;
+    color: rgb(193, 255, 101);
+
+}
+ul li {
+    list-style: none;
+}
+.end{
+    border-bottom: 2px solid black;
+
+}
+.jobimage{
+    width: 90px;
+    height: 150px;
+    margin-top: -50px;
+    border-radius: 5px;
+
+}
+
+.jobimage2{
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    border-radius: 5px;
+
+}
+
+
+
+@media print  {
+    
+    h1, h2, h3, h4, h5{
+        color: black;
+    }
+    .shade{
+        color: black;
+    }
+    .paragrafos h2{
+        border-top: 0;
+    }
+    .paragrafos h3, .paragrafos h4{
+        color: black;
+    }
+    ul li a {
+        color: black;
+    }
+    ul li {
+        margin-bottom: 10px;
+    }
+    .linkes{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+}
