@@ -1,3 +1,15 @@
+aside{
+    /* background-color: black; */
+    background: linear-gradient(-180deg, #5c5c5c, #474747, #313131, #000000);
+    border-radius: 0 150px 0 0;
+
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
 .competencias li{
     text-align: left;
 }
@@ -19,7 +31,7 @@ aside img{
     width: 100%;
     height: auto;
 }
-.headfoto{
+.foto{
     border-radius: 5px 70px 5px 70px;
     background-color: white;
     color: black;
@@ -82,18 +94,6 @@ a{
 }
 
 
-aside{
-    /* background-color: black; */
-    background: linear-gradient(-180deg, #5c5c5c, #474747, #313131, #000000);
-    border-radius: 0 150px 0 0;
-
-    width: 40%;
-    height: auto;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-}
-
 .competencias h4{
     font-size: 20px;
 
@@ -150,12 +150,12 @@ li{
         background: linear-gradient(-180deg, #949494, #bebebe, #e2e2e2, #ffffff);
         border-radius: 0 150px 0 0;
     }
-    .headfoto{
+    .foto{
         border-radius: 5px 70px 5px 70px;
         
         background-color: white;
     }
-    .headfoto img{
+    .foto img{
         border-radius: 5px 70px 5px 70px;
         width: 50%;
 
@@ -180,7 +180,7 @@ li{
     }
     .end{
         padding-bottom: 10px;
-        border-bottom: 2px solid black);
+        border-bottom: 2px solid black;
     
     }
     p {
