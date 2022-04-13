@@ -15,8 +15,8 @@ main{
 
 .paragrafos{
     text-align: justify;
-    width: 95%;
-    margin-left: 2.5%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 20px;
     margin-bottom: 0px;
     line-height: 23px;
@@ -113,7 +113,13 @@ ul li {
     height: 100px;
     border-radius: 5px;
 }
-
+.linkes{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+p {
+    line-height: 19px;
+}
 
 @media print  {
     
@@ -132,13 +138,33 @@ ul li {
     ul li a {
         color: black;
     }
+    .job-title{
+        margin-top: 20px;
+    }
     ul li {
         margin-bottom: 0px;
+        margin-left: 10px;
         padding: 2px;
     }
-    .linkes{
-        margin-top: 30px;
-        margin-left: 20px;
+    .projects li {
+        padding-bottom: 5px;
     }
-    
+    .jobimage, .tattoo, .jobimage2, .faculdade, .faculdade0{
+        display: none;
+        width: 0;
+        height: 0;
+        margin-top: 0;
+        
+    }
+    .linkes{
+        margin-top: 0;
+
+    }
+    .projects{
+        margin-left: 5px;
+        margin-right: 20px;
+    }
+    .blinder{
+        display: none;
+    }
 }
