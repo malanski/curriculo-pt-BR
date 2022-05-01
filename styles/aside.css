@@ -5,11 +5,24 @@ aside{
 
     width: 40%;
     height: auto;
-    padding: 5px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
 }
-
+.lang-nav{
+    text-align: center;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.langs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .competencias li{
     text-align: left;
 }
@@ -22,7 +35,7 @@ h1{
     /* position: relative; */
 
 }
-aside img{
+aside .retrato{
     top: 0;
     border-radius: 5px 70px 5px 70px;
 
@@ -50,7 +63,8 @@ aside img{
 }
 h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
+    width: 100%;
     /* position: absolute; */
 
 }
@@ -109,7 +123,7 @@ li{
     color: rgb(193, 255, 101);
     line-height: 30px;
     margin-left: 20px;
-    width: 80%;
+    width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -119,7 +133,10 @@ li{
 .competencias .princi-compet{
     font-size: 17px;
 }
-
+.competencias ul {
+    margin: 0;
+    padding: 0;
+}
 .competencias li{
     font-family: Arial, Helvetica, sans-serif;
 
@@ -138,6 +155,11 @@ li{
     font-size: 15px;
 
 }
+.projetos a {
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: smaller;
+}
 
 
 @media print  {
@@ -155,6 +177,11 @@ li{
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .lang-nav {
+        display: none;
+    }
+
     .foto{
         border-radius: 5px 70px 5px 70px;
         
@@ -188,6 +215,11 @@ li{
         margin: 0;
         padding: 0;
     }
+    .competencias ul{
+        text-align: left;
+        width: 100%;
+    }
+    
     aside h2{
         margin-bottom: 0;
         padding-bottom: 0;
@@ -204,6 +236,7 @@ li{
         color: black;
         line-height: 20px;
         font-size: smaller;
+        margin-bottom: 10px;
     }
     .projetos span {
         font-weight: bold;
