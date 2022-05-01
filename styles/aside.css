@@ -168,6 +168,7 @@ li{
     
     .competencias{
         margin-top: 15px;
+        margin: 5px;
     }
     .back{
         margin-top: 35px;
@@ -199,5 +200,12 @@ li{
         border-bottom: 2px solid black;
     
     }
-    
+    .projetos a {
+        color: black;
+        line-height: 20px;
+        font-size: smaller;
+    }
+    .projetos span {
+        font-weight: bold;
+    }
 }

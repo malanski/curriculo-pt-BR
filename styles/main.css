@@ -54,7 +54,7 @@ ol{
     border-top: 4px solid white;
     padding-top: 10px;
     font-size: 25px;
-    text-align: left;
+    text-align: center;
 }
 
 .tattoo{
@@ -122,12 +122,25 @@ p {
 }
 
 @media print  {
+    h1{
+        font-size: 23px;
+        margin: 0;
+        padding: 0;
+    }
+    h2{
+
+        margin: 0;
+        padding: 0;
+    }
     
     h1, h2, h3, h4, h5{
         color: black;
     }
     .shade{
         color: black;
+    }
+    .paragrafos{
+        line-height: 17px;
     }
     .paragrafos h2{
         border-top: 0;
@@ -139,18 +152,19 @@ p {
         color: black;
     }
     .job-title{
-        margin-top: 20px;
+        margin-top: 10px;
     }
     ul li {
         margin-bottom: 0px;
         margin-left: 10px;
         padding: 2px;
+        line-height: 17px;
     }
     .projects li {
         padding-bottom: 5px;
     }
     .jobimage, .tattoo, .jobimage2, .faculdade, .faculdade0{
-        display: none;
+        display: hide;
         width: 0;
         height: 0;
         margin-top: 0;
