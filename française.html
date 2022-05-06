@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,17 +15,23 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
     crossorigin="anonymous" referrer policy="no-referrer" />
-    <title>Ulisses Malanski - Front End - Curriculum</title>
+    <title>Ulisses Malanski - Front End - Reprendre</title>
 </head>
 <body>
     <div class="row">
         <aside>
-            <div class="asider">        
+            <div class="asider">
+                <div class="lang-nav">
+                    <a href="index.html" class="langs"><img width="20px" src="brasil.png"/> Portugês</a>
+                    <a href="english.html" class="langs"><img width="20px" src="estados-unidos.png"/> English</a>
+                    <a href="française.html" class="langs"><img width="20px" src="franca.png"/> Française</a>
+
+                </div>            
                 <div class="foto">
 
-                    <img src="background.jpg">
+                    <img class="retrato" src="background.jpg">
                     
-                    <p><i class="fa-solid fa-location-dot"></i> Living in Curitiba, Paraná, Brazil.</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Vivre à Curitiba, Paraná, Brésil</p>
                     
                 </div>
 
@@ -60,37 +66,81 @@
                     </div>
                 </div>
 
-
                 <div class="competencias">
-                    <h4 class="princi-compet"><i class="fa-solid fa-bullseye"></i> Core Skills</h4>
-                    <ul>
-                        <li>Front-End Development</li>
-                        <li>Graphic Design </li>
-                        <li>Git</li>
-                        <li>Reactjs</li>
-                        <li>Nextjs</li>
+                    <h2 class="cerifi">Langues</h2>
+                    <ul class="langes">
+                        <li>Portugais <small>(natif ou bilingue)</small></li>
+                        <li>Anglais <small>(Travail professionnel)</small></li>
+                        <li>Espagnol <small>(élémentaire)</small></li>
+                        <li>Français <small>(élémentaire)</small></li>
                     </ul>
                 </div>
-            
 
-                <h2><i class="fa-solid fa-eye"></i>  Skills</h2>
-                <ol class="competencias">Front-end
-                    <li>VScode</li>
-                        <li>HTML</li>
-                        <li>SASS - SCSS</li>
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>nodeJS</li>
-                        
-                        <li>Responsive Design</li>
-                        <li>Chakra</li>
-                        <li>MUI</li>
-                        <li>Font-awesome</li>
-                        <li>Bootstrap</li>
-                        <li>Github Gitlab</li>
-                </ol>
+                    <div class="competencias">
+                    <h2 class="cerifi"><small>Attestation de Cours</small>
+                    
+                    </h2>
+                    <ol >
+                        <li>
+                            Web Development Full Stack
+                            <a href="" title="Awari School">
+                                <small>Awari School</small>
+                            </a>
+                        </li>
+                        <li>
+                            Responsive Wed Design
+                            <a href="https://www.freecodecamp.org/certification/malanski/responsive-web-design" title="Free Code Camp">
+                                <small>Free Code Camp</small>
+                            </a>
+                        </li>
+                        <li>
+                            JavaScript Algorithms and Data Structures
+                            <a href="https://www.freecodecamp.org/certification/malanski/responsive-web-design" title="Free Code Camp">
+                                <small>Free Code Camp</small>
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+
+
+                <div class="competencias">
+                    <h2 class="cerifi">Compétences</h2>
+                    <ol>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>ReactJS, NextJS, TypeScript</li>
+                        <li>SCRUM, Kanban</li>
+                        <li>Git, Github</li>
+                        <li>Illustrator, Photoshop</li>
+                        <li>Ui-Ux Design</li>
+                        <li>Postgres, SQlite</li>
+                        <li>Docker Composer</li>
+                        <li>Cloud Deploy, AWS</li>
+                        <li>Sequelize, GraphQl</li>
+                    </ol>
+                </div>
+                <br>
+                <div class="projetos">
+                    <div class="competencias">
+                        <h2 class="linkes">Mes projets:
+                        </h2>
+                    </div>
+                    <span><i class="fa-solid fa-check"></i> NextJS: E-commerce aller chercher REST API.<br/></span>
+                    <a href="https://malanski.github.io/poke-store-next/">https://malanski.github.io/poke-store-next/</a>
+
+                    <span><i class="fa-solid fa-check"></i> Jeu: devinez la couleur RGB:<br/></span>
+                    <a href="https://malanski.github.io/GessingColorGame/">https://malanski.github.io/GessingColorGame/</a>
+
+                    <span><i class="fa-solid fa-check"></i> ReactJS: E-commerce aller chercher REST API.<br/></span>
+                    <a href="https://malanski.github.io/pokestore-react/">https://malanski.github.io/pokestore-react/</a>
+
+                    <span><i class="fa-solid fa-check"></i> ReactJS: Chronomètre:<br/></span>
+                    <a href="https://malanski.github.io/cron/">https://malanski.github.io/cron/</a>
+
+                    <span><i class="fa-solid fa-check"></i> Vanilla JS: E-commerce aller chercher REST API:<br/></span>
+                    <a href="https://malanski.github.io/pokeloja2/">https://malanski.github.io/pokeloja2/</a>
+                </div>
                 
-                <ol class="competencias">Back-end
+                <!-- <ol class="competencias">Back-end
                     <li>SQL</li>
                     <li>Postgres</li>
                     <li>Sequelize</li>
@@ -121,33 +171,11 @@
                     <li>Nuendo and Cubase</li>
                     <li>Music Composing</li>
                 </ol>
+                 -->
                 
-                
-                <div class="competencias">
-                    <h4 class="cerifi"><i class="fa-solid fa-earth-americas"></i> Languages</h4>
-                    <ol>
-                        <li>Portuguese (Native or Bilingual)</li>
-                        <li>English (Professional Working)</li>
-                        <li>Spanish (Elementary)</li>
-                        <li>French (Elementary)</li>
-                    </ol>
-                </div>
-                <br>
-
-                <div class="competencias">
-                    <h4 class="cerifi"><i class="fa-solid fa-certificate"></i> Course Certifications</h4>
-                    <ol >
-                        <li>
-                            Web Development<a href="" title="Awari School">Awari School</a>
-                        </li>
-                        <li>
-                            Programing Basics<a href="" title="Digital Innovation One">Digital Innovation One</a>
-                        </li>
-                    </ol>
-                </div>
             </div>
 
-            <div class="links-pessoais">
+            <!-- <div class="links-pessoais">
                 <a href="https://www.facebook.com/ulisses-malanski/" target="_blank" title="facebook: ulisses malanski">
                     <i class="fa-brands fa-facebook-square"></i><br/>
                     facebook.com/ulisses-malanski
@@ -156,7 +184,7 @@
                     <i class="fa-brands fa-instagram-square"></i><br/>
                     instagram.com/ulissesmalanski_tattoo
                 </a>
-            </div>
+            </div> -->
             
          </aside>
          
@@ -166,14 +194,14 @@
                 <h2>Web Developer Front-End</h2>
                
                 <p class="paragrafos">
-                    &ensp;&ensp;&ensp;I'm Web Developer, my professional career begins on Research sector (Museum) where I worked for two years. 
-                     I acted as Art-Teacher, for 7 years on Public Schools and also as Tattoo artist for 5 years, where I developed illustrations and designs.<br/>
+                    &ensp;&ensp;&ensp;Je suis Développeur Web, ma carrière professionnelle débute dans le secteur de la Recherche (Musée) où j'ai travaillé pendant deux ans. 
+                     J'ai agi en tant que professeur d'art pendant 7 ans dans des écoles publiques et également en tant que tatoueur pendant 5 ans, où j'ai développé des illustrations et des dessins.<br/>
                     <br/>
-                    &ensp;&ensp;&ensp;Today I found myself in the technology area (Front-end + Back-end), 
-                    jumping head first on Computing because I want to merge my knowledge on art and design with software engineering and also learn and develop projects with programing languages.<br/>
+                    &ensp;&ensp;&ensp;Aujourd'hui je me suis retrouvé dans le domaine technologique (Front-end + Back-end), 
+                    sauter tête première sur l'informatique parce que je veux fusionner mes connaissances sur l'art et le design avec le génie logiciel et aussi apprendre et développer des projets avec des langages de programmation.<br/>
                     <br/>
-                    &ensp;&ensp;&ensp;At my free time I do search for newest technologies, compose some experimental music and create drawings 
-                    and animations.<br/>
+                    &ensp;&ensp;&ensp;Pendant mon temps libre, je recherche les dernières technologies, compose de la musique expérimentale et crée des dessins. 
+                    et animations.<br/>
 
                 </p>
                  
@@ -182,107 +210,89 @@
              
      
             <div class="paragrafos">
-                <h2><i class="fa-solid fa-hourglass-end"></i> Work Experience</h2>
-                
+                <h2>L'expérience professionnelle</h2>
+                <br>
 
                 <div class="row">
                     <div>
-                        <h3 class="job-title"><i class="fa-solid fa-palette"></i> Tattoo artist - Illustrator</h3>
+                        <h3 class="job-title"><i class="fa-solid fa-palette"></i> Tatoueur - Illustrateur</h3>
 
-                        <h4 class="place">Unionttt Tattoo Studio (self-employed)</h4>
-                        <p><i class="fa-solid fa-clock"></i> <small>december 2019 - Present (2 years 4 months)</small></p>
+                        <h4 class="place">Unionttt Tattoo Studio (travailleur indépendant)</h4>
+                        <p><i class="fa-solid fa-clock"></i> <small>décembre 2019 - Actuel (2 ans 4 mois)</small></p>
                         
-                        <p class="shade"><i class="fa-solid fa-location-dot"></i> Curitiba, Paraná, Brazil</p>
+                        <p class="shade"><i class="fa-solid fa-location-dot"></i> Curitiba, Paraná, Brésil</p>
                     </div>
                     <img class="tattoo" src="pngegg.png" title="Tattoo Artist - "/>
                 </div>
 
                 <ul class="exp end">
-                    <li>Create images, paintings, drawings and illustrations.</li>
-                    <li>Elaborate designs, sketches and story boards.</li>
-                    <li>Agility with digital paintings and drawings.</li>
-                    <li>Develop and apply tattoos based on clients references.</li>
-                    <li>Keep a controlled and clean ambient at the tattoo studio.</li>
-                    <li>Assist clients on the healing process.</li>
-                    <li>Cleaning, sterilization of the tattoo equipment and the tattoo studio.</li>
-                    <li>Elaborate designs and sketches.</li>
-                    <li>Keep up with the newest trends on health and the tattoo area.</li>
-                    <li>Meet ant talk with clients about they ideas.</li>
-                    <li>Schedule Appointment.</li>
-                    <li>Orientate the client about the post tattoo cares, for appropriate healing.</li> 
+                    <li>Créez des images, des peintures, des dessins et des illustrations.</li>
+                    <li>Élaborer des dessins, des croquis et des story-boards.</li>
+                    <li>Agilité avec des peintures et des dessins numériques.</li>
+                    <li>Développer et appliquer des tatouages ​​basés sur les références des clients.</li>
+                    <li>Gardez une ambiance contrôlée et propre au studio.</li>
+                    <li>Accompagner les clients dans le processus de guérison.</li>
+                    <li>Nettoyage, stérilisation du matériel de tatouage et du studio.</li>
+                    <li>Élaborer des dessins et des croquis.</li>
+                    <li>Tenez-vous au courant des dernières tendances en matière de santé et de tatouage.</li>
+                    <li>Rencontrez et discutez avec les clients de leurs idées.</li>
+                    <li>Orienter le client sur les soins post-tatouage.</li> 
                 </ul>
-
+                    <hr>
                 <div class="row">
                     <div>
-                        <h3><i class="fa-solid fa-book-open"></i> Art-Teacher</h3>
+                        <h3><i class="fa-solid fa-book-open"></i> Professeur d'art</h3>
 
-                        <h4 class="place">State Secretary of Education of Minas Gerais.</h4>
+                        <h4 class="place">Secrétaire d'État à l'Éducation du Minas Gerais.</h4>
                     
-                        <p><i class="fa-solid fa-clock"></i> <small>august 2014 - december of 2018(4 years 5 months)</small></p>
-                        <p class="shade"><i class="fa-solid fa-location-dot"></i> Belo Horizonte, Minas Gerais, Brazil</p>
+                        <p><i class="fa-solid fa-clock"></i> <small>août 2014 - décembre de 2018(4 ans 5 mois)</small></p>
+                        <p class="shade"><i class="fa-solid fa-location-dot"></i> Belo Horizonte, Minas Gerais, Bresil</p>
 
                     </div>
                     <img class="jobimage2" src="seedmg.png" title="Secretaria de Estado de Educação do Paraná"/>
                 </div>
 
-                <ul class="exp end">
-                    <li>To teach theoretical and practical classes on public schools.  </li>
-                    
-                    <li>To plan the course, the discipline and the pedagogical project.</li>
-                    <li>To assess the process of teaching/learnng.</li>
-                    <li>Menage conflicts. Communicate clearly.</li>
-                    <li>To modify the strategies during class.</li>
-                    <li>Correct tests and home works.</li>
-                    <li>To develop activities related to the contemporary art production.</li>
-                    
-                    <li>To develop activities for the political understanding of the society problems.</li>
-                    <li>To be updated about tendencies on art teaching</li>
-                    <li>Keep up with the Production on Education and Cultural areas.</li>
-                    <li>Pay attention to students reactions at the class room. Stablish empathy with them.</li>
-                    <li>Relate to and respect the cultural, economic and social variety.</li>
-                    <li>To inform the student about the relevance of knowledge in the human development.</li>
-                </ul>
-                    
-                
 
                 <div class="row">
                     <div>
-                        <h3><i class="fa-solid fa-book-open"></i> Art-Teacher</h3>
-                        <h4 class="place">State Secretary of Education of Paraná - SEED</h4>
+                        <h4 class="place">Secrétaire d'État à l'éducation du Paraná - SEED</h4>
 
-                        <p><i class="fa-solid fa-clock"></i> <small>2011 - 2013 (2 years)</small></p>
-                        <p class="shade"><i class="fa-solid fa-location-dot"></i> Curitiba, Paraná, Brazil</p>
+                        <p><i class="fa-solid fa-clock"></i> <small>2011 - 2013 (2 ans)</small></p>
+                        <p class="shade"><i class="fa-solid fa-location-dot"></i> Curitiba, Paraná, Bresil</p>
                  
                     </div>
                     <img class="jobimage2" src="seed.png" title="Secretaria de Estado de Educação do Paraná"/>
                 </div>
-                     
+            </br>
+            <br>
+
                 <ul class="exp end">
-                    <li>To teach theoretical and practical classes on public schools.  </li>
+                    <li>Donner des cours théoriques et pratiques dans les écoles publiques.</li>
                     
-                    <li>To plan the course, the discipline and the pedagogical project.</li>
-                    <li>To assess the process of teaching/learnng.</li>
-                    <li>Menage conflicts. Communicate clearly.</li>
-                    <li>To modify the strategies during class.</li>
-                    <li>Correct tests and home works.</li>
-                    <li>To develop activities related to the contemporary art production.</li>
+                    <li>Planifier le cours, la discipline et le projet pédagogique.</li>
+                    <li>Évaluer le processus d'enseignement/apprentissage.</li>
+                    <li>Conflits de ménage. Communiquez clairement.</li>
+                    <li>Modifier les stratégies pendant le cours.</li>
+                    <li>Tests corrects et travaux à domicile.</li>
+                    <li>Développer des activités liées à la production d'art contemporain.</li>
                     
-                    <li>To develop activities for the political understanding of the society problems.</li>
-                    <li>To be updated about tendencies on art teaching</li>
-                    <li>Keep up with the Production on Education and Cultural areas.</li>
-                    <li>Pay attention to students reactions at the class room. Stablish empathy with them.</li>
-                    <li>Relate to and respect the cultural, economic and social variety.</li>
-                    <li>To inform the student about the relevance of knowledge in the human development.</li>
+                    <li>Développer des activités pour la compréhension politique des problèmes de société.</li>
+                    <li>Être informé des tendances en matière d'enseignement artistique.</li>
+                    <li>Suivez l'actualité de la production dans les domaines de l'éducation et de la culture.</li>
+                    <li>Faites attention aux réactions des élèves dans la salle de classe. Établissez de l'empathie avec eux.</li>
+                    <li>S'identifier et respecter la diversité culturelle, économique et sociale.</li>
+                    <li>Informer l'étudiant sur la pertinence des connaissances dans le développement humain.</li>
                 </ul>
+                <br>  
             </div>
 
         
             <div class="paragrafos education">
-                <h2><i class="fa-solid fa-graduation-cap"></i> Educational Background</h2>
+                <h2><i class="fa-solid fa-graduation-cap"></i> Contexte éducatif</h2>
                 <div>
-                <h3>School of Music an Fine Arts of Paraná<br/><small>Escola de Musica e Belas Artes do Paraná</small> </h3>
+                <h3>École de musique et des beaux-arts du Paraná<br/><small>Escola de Musica e Belas Artes do Paraná</small> </h3>
                 <p>
-                    <i class="fa-solid fa-compass-drafting"></i> Bachelor's Degree on <b>Drawing Licentiate (Visual Arts)</b>,
+                    <i class="fa-solid fa-compass-drafting"></i> Baccalauréat sur <b>Licence de Dessin (Arts Visuels)</b>,
                     <br/> Art and History of Art · (2007 - 2010)
                 </p>
                 <div class="row blinder">
@@ -296,8 +306,8 @@
                 
                 <h3>ENSITEC <br/><small>Dom Bosco</small></h3>
                 <p>
-                    <i class="fa-solid fa-pen-nib"></i> Associates Degree on <b>Graphic and Product Design</b>,
-                    <br/> Design and Arts Applied · (2005 - 2006)
+                    <i class="fa-solid fa-pen-nib"></i> Diplôme d'associé sur <b>Design Graphique et Produit</b>,
+                    <br/> Design et Arts Appliqués · Concepteur technique et dessinateur (2006)
                 </p>
                 <div class="row blinder">
                     <p></p>
@@ -306,60 +316,6 @@
                 <br/>
             </div>
 
-            <h3 class="linkes"> <br/>
-                Projects on Web Development:
-
-            </h3>
-
-            <ul class="projects">
-                <li>
-
-                    <i class="fa-solid fa-check"></i> Nextjs: Poke-Store: applicatiion Ecommerce using REST API(pokemonAPI).<br/>
-                    <a href="https://malanski.github.io/poke-store-next/">https://malanski.github.io/poke-store-next/</a>
-                </li>
-                <li>
-                    
-                    <i class="fa-solid fa-check"></i> Reactjs Pokestore: Ecommerce app with Reactjs also using REST API(pokemonAPI).<br/>
-                    <a href="https://malanski.github.io/pokestore-react/">https://malanski.github.io/pokestore-react/</a>
-                </li>
-
-                <li>
-                    <i class="fa-solid fa-check"></i> Reactjs app cronometer.<br/>
-                    <a href="https://malanski.github.io/cron/">https://malanski.github.io/cron/</a>
-                </li>
-
-
-                <li>
-                    <i class="fa-solid fa-check"></i> E-comerce using HTML + SCSS and JavaScript:<br/>
-                    <a href="https://malanski.github.io/pokeLoja2/">https://malanski.github.io/pokeLoja2/</a>
-                </li>
-
-                <li>
-                    <i class="fa-solid fa-check"></i> Game: Gessing Color RGB: <br/>
-                    <a href="https://malanski.github.io/cron/">https://malanski.github.io/cron/</a>
-                
-                </li>
-
-                <li>
-                    <i class="fa-solid fa-check"></i> Online drum simulator:<br/>
-                    <a href="https://malanski.github.io/DrumKit/">https://malanski.github.io/DrumKit/</a>
-                </li>
-
-                <li>
-                    <i class="fa-solid fa-check"></i>  JavaScript chronometer:<br/>
-                    <a href="https://malanski.github.io/Stopwatch-Vanilla/">https://malanski.github.io/Stopwatch-Vanilla/</a>
-                </li>
-
-                <li>
-                    <i class="fa-solid fa-check"></i> My github repositories:<br/>
-                    <a href="https://github.com/malanski">https://github.com/malanski</a>
-                </li>
-
-                <li>
-                    <i class="fa-solid fa-check"></i> My Portfolio:<br/>
-                    <a href="https://malanski.github.io/MyResume/">https://malanski.github.io/MyResume/</a>
-                </li>
-            </ul>   
          </main>
      
     </div>
@@ -367,7 +323,7 @@
         <footer>
 
             <div>
-                <h6><i class="fa-brands fa-dev"></i> - Ulisses Malanski - 2022 - Curitiba - Paraná - Brazil - <i class="fa-brands fa-dev"></i></h6>
+                <h6><i class="fa-brands fa-dev"></i> - Ulisses Malanski - 2022 - Curitiba - Paraná - Bresil - <i class="fa-brands fa-dev"></i></h6>
 
             </div>
             <div class="row-stack">

@@ -184,12 +184,12 @@ li{
 
     .foto{
         border-radius: 5px 70px 5px 70px;
-        
+        /* margin-top: -3px; */
         background-color: white;
     }
     .foto img{
         border-radius: 5px 70px 5px 70px;
-        width: 50%;
+        width: 40%;
 
     }
     
