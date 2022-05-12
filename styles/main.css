@@ -4,6 +4,23 @@ main{
     margin-bottom: 10px;
     width: 60%;
 }
+.text-option a{
+    text-align: right;
+    width: 20%;
+}
+.text-option i{
+    transition: all ease-in-out 2.9s;
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid;
+
+}
+
+.text-option i:hover{
+    color: white;
+    border-color: white;
+}
 .shade{
     color: rgb(122, 122, 122);
 }
