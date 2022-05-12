@@ -122,6 +122,9 @@ p {
 }
 
 @media print  {
+    .text-option{
+        display: none;
+    }
     h1{
         font-size: 23px;
         margin: 0;

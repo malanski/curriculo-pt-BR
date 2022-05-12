@@ -41,7 +41,7 @@ aside .retrato{
 
     /* position: absolute; */
 
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 .foto{
@@ -188,7 +188,7 @@ li{
         background-color: white;
     }
     .foto img{
-        border-radius: 5px 70px 5px 70px;
+        border-radius: 5px 30px 5px 30px;
         width: 40%;
 
     }
