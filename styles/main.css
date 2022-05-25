@@ -29,6 +29,25 @@ main{
     margin-left: 0%;
 }
 
+.exp-option a{
+    text-align: right;
+    width: 20%;
+}
+.exp-option i{
+    transition: all ease-in-out 2.9s;
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+
+}
+
+.exp-option i:hover{
+    color: white;
+    border-color: white;
+}
+.shade{
+    color: rgb(122, 122, 122);
+}
 
 .paragrafos{
     text-align: justify;
@@ -53,7 +72,7 @@ main{
 }
 
 .place:first-child {
-    border: 0 solid; 
+    border: none; 
 }
 
 
@@ -68,7 +87,7 @@ ol{
 
 
 .paragrafos h2{
-    border-top: 4px solid white;
+    /* border-top: 4px solid white; */
     padding-top: 10px;
     font-size: 25px;
     text-align: center;
@@ -103,7 +122,7 @@ ul li {
 }
 
 .end{
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
 
 }
 
@@ -119,12 +138,12 @@ ul li {
     width: 250px;
     height: 140px;
     border-radius: 5px;
-    border: 4px solid white;
+    /* border: 4px solid white; */
     padding: 0px;
 }
 
 .faculdade{
-    border: 4px solid white;
+    /* border: 4px solid white; */
 
     width: 210px;
     height: 100px;
@@ -142,19 +161,27 @@ p {
     .text-option{
         display: none;
     }
-    h1{
-        font-size: 23px;
-        margin: 0;
-        padding: 0;
+    .exp-option{
+        display: none;
     }
-    h2{
-
-        margin: 0;
-        padding: 0;
+    .headis{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
     
-    h1, h2, h3, h4, h5{
+    h2{
+        text-align: center;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
         color: black;
+    }
+    
+    h1, h3, h4, h5{
+        color: black;
+        text-align: left;
     }
     .shade{
         color: black;
@@ -163,11 +190,23 @@ p {
         line-height: 17px;
     }
     .paragrafos h2{
+        margin-top: -10px;
         border-top: 0;
+    }
+    .paragrafos h4{
+        margin-top: -10px;
+        margin-bottom: 0;
+        font-weight: 300;
     }
     .paragrafos h3, .paragrafos h4{
         color: black;
+
     }
+    .education h3 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+   
     ul li a {
         color: black;
     }
@@ -197,6 +236,9 @@ p {
     .projects{
         margin-left: 5px;
         margin-right: 20px;
+    }
+    .exp {
+        margin-top: -20px;
     }
     .blinder{
         display: none;

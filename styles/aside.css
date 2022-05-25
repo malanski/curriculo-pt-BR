@@ -60,7 +60,9 @@ aside .retrato{
     justify-content: flex-end;
     margin-top: 80px;
 
+    
 }
+
 h2{
     text-align: center;
     font-size: 18px;
@@ -164,35 +166,60 @@ li{
 
 @media print  {
     aside{
-        padding: 0;
+        padding: 5px 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         /* background-color: rgb(160, 160, 160); */
         background: linear-gradient(-180deg, #949494, #bebebe, #e2e2e2, #ffffff);
-        border-radius: 0 150px 0 0;
+        border-radius: 0 80px 0 0;
         border: 8px solid white;
     }
     .asider{
         margin-left: 10px;
         margin-right: 10px;
     }
-
+    h1{
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+    }
     .lang-nav {
         display: none;
+        margin-bottom: -20px;
+    }
+
+    .container-x{
+        /* background: linear-gradient(-180deg, #949494, #bebebe, #e2e2e2, #ffffff); */
+        border-radius: 0 80px 0 80px;
+        background: #949494;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 10px 5px 10px;
     }
 
     .foto{
-        border-radius: 5px 70px 5px 70px;
+        /* margin-top: -20px; */
+        margin: 0;
+        border-radius: 5px 50% 5px 70px;
         /* margin-top: -3px; */
         background-color: white;
     }
     .foto img{
-        border-radius: 5px 30px 5px 30px;
-        width: 40%;
+        /* margin-top: auto; */
+        /* margin-bottom: auto; */
+        border-radius: 5px 50% 5px 70px;
+        width: 100%;
 
     }
-    
+    .dado-pessoal i {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+    .dado-pessoal span {
+        font-size: 12px;
+    }    
     .competencias{
         margin-top: 15px;
         margin: 5px;
@@ -211,15 +238,31 @@ li{
         padding-top: 0;
         
     }
+    .flexer {
+        text-align: center;
+        margin: 0 auto 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexer i { 
+        font-size: 20px;
+    }
     .cerifi{
-        margin: 0;
+        margin: 0 0 5px 0;
         padding: 0;
     }
     .competencias ul{
         text-align: left;
         width: 100%;
     }
-    
+    .competencias h4 {
+        font-size: 16px;
+        font-weight: 00;
+        line-height: 20px;
+        margin: 2px 0 0 0;
+
+    }
     aside h2{
         margin-bottom: 0;
         padding-bottom: 0;
